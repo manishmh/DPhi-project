@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>admin</title>
+	<link rel="icon" type="image/x-icon" href=""> <!-- favicon icon -->
+	<link rel="stylesheet" type="" href="../static/css/admin_style.css">
+</head>
+<body>
+	<header>
+        <a href="./index.html" class="flex">
+		    <img src="../static/assets/icons/logo.png">
+		    <div class="cp-name">DPhi</div>
+        </a>
+	</header>
+	<div class="body-container">
+		<h2>Challenge Details</h2>
+		<p class="ch">Challenge Name</p>
+		<input class="ch-input" type="text" placeholder="">
+		<p class="s-date">Start Date</p>
+		<input class="s-date-input" type="date" placeholder="Add start date">
+		<p class="e-date">End Date</p>
+		<input class="e-date-input" type="date" placeholder="Add end date">
+		<p class="discription">Discription</p>
+		<input class="discription-input" type="message">
+		<p class="image">Image</p>
+		<form action="/action_page.php">
+  			<input type="file" id="myFile" name="filename">
+		</form>
+		<p class="level">Level Type</p>
+		<select name="difficulty">
+			<option>Easy</option>
+			<option>Medium</option>
+			<option>Hard</option>
+		</select><br>
+		<a  href="./index.html#article-container" href="#blog-container"><button class="create">Create Challange</button></a>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Home</title>
+	<link rel="icon" type="image/x-icon" href=""> <!-- favicon icon -->
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="flex">
+		<img src="../static/assets/icons/logo.png">
+		<div class="cp-name">DPhi</div>
+	</header>
+	<div class="display-page">
+		<div class="title">
+			<h1>Accelerate Innovation<br>with Global AI Challanges</h1>
+			<h3>Al Challenges at DPhi simulate real-world problems. It is a
+				great place to put your Al/Data Science skills to test on
+				diverse datasets allowing you to foster learning through
+				competitions.
+			</h3>
+			<a href="./admin.html"><button type="button" href="./admin.html">Create Challange</button></a>
+		</div>
+		<div class="title-logo">
+			<img src="../static/assets/icons/PicsArt_04-14-04.42 1.svg">
+		</div>
+	</div>
+
+	<div class="topics">
+		<div class="topics-container flex">
+			<div class="ai flex">
+				<img src="../static/assets/icons/ai.svg">
+				<h3><span class="topics-span">100K+</span><br>AI model submission</h3>
+			</div>
+			<div class="line"></div>
+			<div class="data-science flex">
+				<img src="../static/assets/icons/data.svg">
+				<h3><span class="topics-span">50K+</span><br>Data Scientists</h3>
+			</div>
+			<div class="line"></div>
+			<div class="ai-challanges flex">
+				<img src="../static/assets/icons/ai-cha.svg">
+				<h3><span class="topics-span">100+</span><br>AI Challanges hosted</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="question-container">
+		<div class="question">
+			<p>Why Participate in <span class="question-span"> AI Challanges?</span></p>
+		</div>
+		<div class="sub-topics-container">
+			<div class="sub-topics">
+				<img src="../static/assets/icons/1.svg">
+				<h2>Prove your skills</h2>
+				<p>Gain substantial experience by solving real-world problems
+					and pit against others to come up with innovative solutions.</p>
+			</div>
+			<div class="sub-topics">
+				<img src="../static/assets/icons/2.svg">
+				<h2>Learn from community</h2>
+				<p>One can look and analyze the solutions submitted by the other Data Scientists
+					in the community and learn from them.
+				</p>
+			</div>
+			<div class="sub-topics">
+				<img src="../static/assets/icons/3.svg">
+				<h2>Challange yourself</h2>
+				<p>There is othing for you to lose by participating in a challenge. you 
+					can fail safe, learn out of the entire experience and bounce back harder.
+				</p>
+			</div>
+			<div class="sub-topics">
+				<img src="../static/assets/icons/4.svg">
+				<h2>Earn recognition</h2>
+				<p>you will stand out from the crowd if you do well in AI challanges, 
+					it not only helps you shine in the community but also earns rewards.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="search-container">
+		<h3 class="search-container-heading">Explore Challanges</h3>
+		<div class="search-box-container flex">
+			<div class="search-box">
+				<i class="fa fa-search icon"></i>
+				<input class="input-field" type="text" name="search" placeholder="Search">
+			</div>
+			
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Filter</button>
+				<div id="myDropdown" class="dropdown-content">
+					<h2>Filter</h2>
+					<hr>
+					<h3>Status</h3>
+					<ul>
+						<li><input type="checkbox">All</li>
+						<li><input type="checkbox" onclick="myFunctionActive">Active</li>
+						<li><input type="checkbox" onclick="myFunctionUpcoming">Upcoming</li>
+						<li><input type="checkbox" onclick="myFunctionPast">Past</li>
+					</ul>
+					<hr>
+					<h3>Level</h3>
+					<ul class="difficulty">
+						<li><input type="checkbox">Easy</li>
+						<li><input type="checkbox">Medium</li>
+						<li><input type="checkbox">Hard</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="article" id="article-container">
+        <div class="blog upcoming">
+          <a
+            href="./about.html"target="_blank"
+          >
+            <img
+              src="../static/assets/cardimage/11.png"
+              class="thumbnail"
+              width= "400"
+              height="300"
+            />
+			<h5 class="topic"><span>Upcoming</span></h5>
+			<h4>Data Science Bootcamp -<br>Graded Datathon</h4>
+			<p class="starts">Starts in</p>
+			<p class="time">00 &nbsp;:&nbsp 15 &nbsp: 22</p>
+			<p class="dhm">days <span>Hours</span> mins</p>
+			<button><i class="fa fa-check-circle"></i>Participate Now</button>
+          </a>
+        </div>
+
+        <div class="blog upcoming">
+          <a
+            href="./about.html" target="_blank"
+          >
+            <img
+              src="../static/assets/cardimage/22.png"
+              class="thumbnail"
+              width="600"
+              height="400"
+            />
+			<h5 class="topic"><span>Upcoming</span></h5>
+			<h4>Data Sprint 72 - Buttefly<br>Identification</h4>
+			<p class="starts">Starts in</p>
+			<p class="time">00 &nbsp;:&nbsp 12 &nbsp: 34</p>
+			<p class="dhm">days <span>Hours</span> mins</p>
+			<button><i class="fa fa-check-circle"></i>Participate Now</button>
+          </a>
+        </div>
+
+        <div class="blog active">
+          <a
+            href="./about.html" target="_blank"
+          >
+            <img
+              src="../static/assets/cardimage/33.png"
+              class="thumbnail"
+              width="600"
+              height="400"
+            />
+			<h5 class="past"><span>Past</span></h5>
+			<h4>Engineering Graduates<br>Employment Outcomes</h4>
+			<p class="starts">Ended on</p>
+			<p class="time">16th may'22 09:00 PM</p>
+			<p class="dhm">days <span>Hours</span> mins</p>
+			<button><i class="fa fa-check-circle"></i>Participate Now</button>
+          </a>
+        </div>
+
+        <div class="blog active">
+          <a
+            href="./about.html" target="_blank"
+          >
+            <img
+              src="../static/assets/cardimage/44.png"
+              class="thumbnail"
+              width="600"
+              height="400"
+            />
+			<h5 class="past"><span>Past</span></h5>
+			<h4>Travel Insurance Claim<br>prediction</h4>
+			<p class="starts">Ended on</p>
+			<p class="time">16th may'22 09:00 PM</p>
+			<p class="dhm">days <span>Hours</span> mins</p>
+			<button><i class="fa fa-check-circle"></i>Participate Now</button>
+          </a>
+        </div>
+
+        <div class="blog past">
+          <a
+            href="./about.html" target="_blank"
+          >
+            <img
+              src="../static/assets/cardimage/55.png"
+              class="thumbnail"
+              width="600"
+              height="400"
+            />
+			<h5 class="topic"><span>Upcoming</span></h5>
+			<h4>Data Sprint 71 - Weather<br>Recognition</h4>
+			<p class="starts">Starts in</p>
+			<p class="time">00 &nbsp;:&nbsp 17 &nbsp: 10</p>
+			<p class="dhm">days <span>Hours</span> mins</p>
+			<button><i class="fa fa-check-circle"></i>Participate Now</button>
+          </a>
+        </div>
+
+        <div class="blog past">
+          <a
+            href="./about.html" target="_blank"
+          >
+            <img
+              src="../static/assets/cardimage/66.png"
+              class="thumbnail"
+              width="600"
+              height="400"
+            />
+			<h5 class="topic"><span>Upcoming</span></h5>
+			<h4>Data Sprint 70 - Airline<br>Passenger Satisfaction</h4>
+			<p class="starts">Starts in</p>
+			<p class="time">00 &nbsp;:&nbsp 11 &nbsp: 27</p>
+			<p class="dhm">days <span>Hours</span> mins</p>
+			<button><i class="fa fa-check-circle"></i>Participate Now</button>
+          </a>
+        </div>
+      </div>
+	
+	
+	<script>
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+	</script>
+</body>
+</html>
